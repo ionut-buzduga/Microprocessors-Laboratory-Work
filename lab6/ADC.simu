@@ -1,0 +1,42 @@
+<circuit type="simulide_0.4" noLinAcc="5" speed="1000000" reactStep="50" animate="0">
+ 
+Hd44780-4: 
+<item labely="-82" Cols="16" x="-652" y="-244" valLabRot="0" vflip="1" labelrot="0" itemtype="Hd44780" valLabelx="0" valLabely="0" hflip="1" id="Hd44780-121" Show_id="true" labelx="70" Rows="2" rotation="-360" objectName="Hd44780-4"/>
+ 
+Voltage Source-3: 
+<item valLabely="10" Show_id="false" rotation="0" hflip="1" vflip="1" labelrot="0" labelx="-40" labely="-80" Show_Volt="true" y="-232" itemtype="Voltage Source" objectName="Voltage Source-3" Unit=" V" valLabelx="-26" Voltage="5" id="Voltage Source-24" x="-380" valLabRot="0"/>
+ 
+Ground-2: 
+<item labely="8" x="-664" y="-188" valLabRot="0" vflip="1" labelrot="0" itemtype="Ground" valLabelx="0" valLabely="0" hflip="1" id="Ground-80" Show_id="false" labelx="-16" rotation="0" objectName="Ground-2"/>
+ 
+atmega16-1: 
+<item Program="ADC/ADC/Debug/ADC.hex" valLabely="0" Init_gdb="false" Show_id="true" rotation="0" Auto_Load="false" hflip="1" vflip="1" labelrot="0" labelx="0" labely="-20" Mhz="8" y="-188" eeprom="255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255" itemtype="AVR" objectName="atmega16-1" Logic_Symbol="false" valLabelx="0" id="atmega16-2" x="-480" valLabRot="0"/>
+ 
+Connector-5: 
+<item valLabely="0" Show_id="false" rotation="0" hflip="1" vflip="1" enodeid="Circ_eNode-6" labelrot="0" labelx="-16" labely="-24" startpinid="Voltage Source-3-outPin" y="-232" pointList="-364,-232,-364,-180,-424,-180" itemtype="Connector" objectName="Connector-5" valLabelx="0" id="Connector-20" x="-364" valLabRot="0" endpinid="atmega16-1-PA0"/>
+ 
+Connector-7: 
+<item valLabely="0" Show_id="false" rotation="0" hflip="1" vflip="1" enodeid="Circ_eNode-8" labelrot="0" labelx="-16" labely="-24" startpinid="Hd44780-4-PinRW" y="-236" pointList="-628,-236,-628,-204,-664,-204" itemtype="Connector" objectName="Connector-7" valLabelx="0" id="Connector-67" x="-628" valLabRot="0" endpinid="Ground-2-Gnd"/>
+ 
+Connector-9: 
+<item valLabely="0" Show_id="false" rotation="0" hflip="1" vflip="1" enodeid="Circ_eNode-10" labelrot="0" labelx="-16" labely="-24" startpinid="Hd44780-4-dataPin7" y="-236" pointList="-556,-236,-556,-52,-488,-52" itemtype="Connector" objectName="Connector-9" valLabelx="0" id="Connector-7" x="-556" valLabRot="0" endpinid="atmega16-1-PD3"/>
+ 
+Connector-11: 
+<item valLabely="0" Show_id="false" rotation="0" hflip="1" vflip="1" enodeid="Circ_eNode-12" labelrot="0" labelx="-16" labely="-24" startpinid="Hd44780-4-dataPin5" y="-236" pointList="-572,-236,-572,-68,-488,-68" itemtype="Connector" objectName="Connector-11" valLabelx="0" id="Connector-9" x="-572" valLabRot="0" endpinid="atmega16-1-PD1"/>
+ 
+Connector-13: 
+<item valLabely="0" Show_id="false" rotation="0" hflip="1" vflip="1" enodeid="Circ_eNode-14" labelrot="0" labelx="-16" labely="-24" startpinid="Hd44780-4-PinRS" y="-236" pointList="-636,-236,-636,-44,-488,-44" itemtype="Connector" objectName="Connector-13" valLabelx="0" id="Connector-11" x="-636" valLabRot="0" endpinid="atmega16-1-PD4"/>
+ 
+Connector-15: 
+<item valLabely="0" Show_id="false" rotation="0" hflip="1" vflip="1" enodeid="Circ_eNode-16" labelrot="0" labelx="-16" labely="-24" startpinid="Hd44780-4-dataPin4" y="-236" pointList="-580,-236,-580,-76,-488,-76" itemtype="Connector" objectName="Connector-15" valLabelx="0" id="Connector-10" x="-580" valLabRot="0" endpinid="atmega16-1-PD0"/>
+ 
+Connector-17: 
+<item valLabely="0" Show_id="false" rotation="0" hflip="1" vflip="1" enodeid="Circ_eNode-18" labelrot="0" labelx="-16" labely="-24" startpinid="Hd44780-4-PinEn" y="-236" pointList="-620,-236,-620,-36,-488,-36" itemtype="Connector" objectName="Connector-17" valLabelx="0" id="Connector-12" x="-620" valLabRot="0" endpinid="atmega16-1-PD5"/>
+ 
+Connector-19: 
+<item valLabely="0" Show_id="false" rotation="0" hflip="1" vflip="1" enodeid="Circ_eNode-20" labelrot="0" labelx="-16" labely="-24" startpinid="Hd44780-4-dataPin6" y="-236" pointList="-564,-236,-564,-60,-488,-60" itemtype="Connector" objectName="Connector-19" valLabelx="0" id="Connector-8" x="-564" valLabRot="0" endpinid="atmega16-1-PD2"/>
+ 
+PlotterWidget: 
+<item minimumHeight="200" maximumWidth="1000" width="200" height="200" locale="" frameGeometry="" childrenRect="" minimumWidth="200" x="0" toolTipDuration="-1" geometry="" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" windowTitle="" windowOpacity="1" pos="" maximized="false" cursor="" frameSize="" enabled="true" modal="false" accessibleName="" sizeHint="" minimized="false" windowFilePath="" whatsThis="" itemtype="Plotter" windowIconText="" maximumHeight="200" autoFillBackground="false" Tracks="1" objectName="PlotterWidget" updatesEnabled="true" baseSize="" sizeIncrement="" focusPolicy="0" windowIcon="" sizePolicy="" minimumSizeHint="" palette="" windowModality="0" fullScreen="false" styleSheet="" MinVolt="-500" toolTip="" accessibleDescription="" y="0" acceptDrops="false" focus="false" windowModified="false" layoutDirection="0" contextMenuPolicy="1" size="" statusTip="" Scale="1" normalGeometry="" isActiveWindow="true" childrenRegion="" inputMethodHints="0" rect="" minimumSize="" maximumSize="" MaxVolt="500" mouseTracking="false" visible="false"/>
+ 
+</circuit>
